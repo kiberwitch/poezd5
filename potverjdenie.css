@@ -1,0 +1,211 @@
+.passengers-box {
+  background: #fff;
+  border: 1px solid #dedede;
+  margin: 24px auto;
+  width: 950px;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.passengers-header {
+  font-size: 28px;
+  font-weight: normal;
+  color: #222;
+  padding: 24px 32px 18px 32px;
+  border-bottom: 1px solid #dedede;
+  background: #faf9fb;
+}
+
+.passengers-content {
+  display: flex;
+  flex-direction: row;
+  min-height: 420px;
+}
+
+.passenger-list {
+  flex: 1 1 0;
+  padding: 0;
+  margin: 0;
+}
+
+.passenger-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px 32px 20px 32px;
+  border-bottom: 1px solid #ededed;
+}
+
+.passenger-item:last-child {
+  border-bottom: none;
+}
+
+.passenger-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  margin-right: 24px;
+}
+
+.avatar-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-type {
+  font-size: 15px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.passenger-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.passenger-name {
+  font-size: 17px;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.passenger-detail {
+  font-size: 15px;
+  color: #888;
+  margin-bottom: 2px;
+  font-weight: normal;
+}
+
+.passenger-summary {
+  width: 220px;
+  border-left: 1px solid #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 0 0;
+  position: relative;
+}
+
+.summary-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.summary-label {
+  font-size: 20px;
+  color: #333;
+  font-weight: normal;
+}
+
+.summary-value {
+  font-size: 28px;
+  color: #222;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.summary-currency {
+  font-size: 22px;
+  color: #bbb;
+  font-weight: normal;
+  margin-left: 2px;
+}
+
+.summary-edit {
+  width: 140px;
+  height: 40px;
+  margin: 24px 0 0 32px;
+  margin-bottom: 10px;
+  background: #fff;
+  color: #222;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: border 0.2s;
+}
+
+.summary-edit:hover {
+  border: 1.5px solid #ffb200;
+  color: #ffb200;
+}
+
+.pay-method-box {
+  width: 950px;
+  margin: 12px auto;
+  background: #fff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  box-shadow: 0 2px 2px #eceaf1;
+}
+
+.pay-method-header {
+  font-size: 26px;
+  font-weight: normal;
+  color: #222;
+  padding: 22px 24px 18px 24px;
+  border-bottom: 1px solid #dedede;
+}
+
+.pay-method-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 80px;
+  padding: 0 0 0 24px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.pay-method-name {
+  flex: 1;
+  font-size: 20px;
+  color: #222;
+  font-weight: normal;
+}
+
+.pay-method-edit {
+  width: 140px;
+  height: 40px;
+  margin-right: 24px;
+  background: #fff;
+  color: #222;
+  border: 1px solid #888;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: border 0.2s, color 0.2s;
+  box-sizing: border-box;
+}
+
+.pay-method-edit:hover {
+  border: 1.5px solid #ffb200;
+  color: #ffb200;
+}
+
+.btn-down {
+  position: absolute;
+  right: 120px;
+  padding: 10px 50px;
+  background: #ffa800;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-top: 70px;
+  cursor: pointer;
+}
